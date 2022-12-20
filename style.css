@@ -80,24 +80,73 @@ header{
     margin: 0;
     width: 100%;
 }
-.card {
+.card1 {
     width: 20%;
     height: 300px;
     padding: 0.5px;
+    background-image: url(Kartinki/Screenshot_394.jpg);
+    background-size: 100% 60%;
+    background-repeat: no-repeat;
     border: 1px solid silver;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: left;
+    justify-content: end;
     align-items: flex-start;
     gap: 20px;
     text-decoration: none;
     transition-duration: 0.5s;
 }
-img{
-    max-width: 100%;
-    height: 58%;
-    border-radius: 5px;
+.card2 {
+    width: 20%;
+    height: 300px;
+    padding: 0.5px;
+    background-image: url(Kartinki/56551.jpg);
+    background-size: 100% 60%;
+    background-repeat: no-repeat;
+    border: 1px solid silver;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-start;
+    gap: 20px;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+.card3 {
+    width: 20%;
+    height: 300px;
+    padding: 0.5px;
+    background-image: url(Kartinki/8856096a22e6ecab313050f4160c053555bad143b910931d96b28d0df204d7d2.jpg);
+    background-size: 100% 60%;
+    background-repeat: no-repeat;
+    border: 1px solid silver;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-start;
+    gap: 20px;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+.card4 {
+    width: 20%;
+    height: 300px;
+    padding: 0.5px;
+    background-image: url(Kartinki/p1_3555626_08e19c6c.jpg);
+    background-size: 100% 60%;
+    background-repeat: no-repeat;
+    border: 1px solid silver;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-start;
+    gap: 20px;
+    text-decoration: none;
+    transition-duration: 0.5s;
 }
 .igra{
     color: white;
@@ -247,7 +296,7 @@ h1{
 .blog1 {
     background-image: url(Kartinki/game-ratings-featured.jpg);
     background-position: center;
-    background-size: 335px 230px ;
+    background-size: 100% 230px ;
     background-repeat: no-repeat;
     display: flex;
     width: 33%;
@@ -263,7 +312,8 @@ h1{
 .blog2 {
     background-image: url(Kartinki/DyingLight2_HERO.jpg);
     background-position: center;
-    background-size: 335px 230px ;
+    background-size: 100% 230px ;
+    background-repeat: no-repeat;
     display: flex;
     width: 33%;
     height: 230px;
@@ -279,8 +329,9 @@ h1{
 .blog3 {
     background-image: url(Kartinki/d2f1a80c52.jpg);
     background-position: center;
-    background-size: 335px 230px ;
+    background-size: 100% 230px ;
     display: flex;
+    background-repeat: no-repeat;
     width: 33%;
     height: 230px;
     margin-bottom: 10px;
@@ -296,14 +347,13 @@ h1{
     color: white;
     font-size: 30px;
     padding: 10px;
-    position: relative;
 }
 .text1{
     color: white;
     font-size: 15px;
     padding-top: 10px;
     position: relative;
-    left: 35px;
+    left: 4%;
     text-decoration: none;
 }
 .text2{
@@ -311,7 +361,7 @@ h1{
     font-size: 15px;
     padding-top: 10px;
     position: relative;
-    left: 35px;
+    left: 4%;
     text-decoration: none;
 }
 .text3{
@@ -319,7 +369,7 @@ h1{
     font-size: 15px;
     padding-top: 10px;
     position: relative;
-    left: 55px;
+    left: 6%;
     text-decoration: none;
 }
 
@@ -336,22 +386,17 @@ h1{
     margin: 0;
     width: 100%;
 }
-.webs{
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
 .photo{
     position: relative;
     background-image: url(Kartinki/me.jpg);
     background-position: center;
-    background-size: 500px 500px ;
+    background-size: 100% 500px ;
     height: 500px;
-    width: 500px;
+    width: 35%;
     border-radius: 10px;
     border: 1px solid silver;   
     top: 60px;
-    left: 200px;
+    left: 12%;
 }
 .telegram{
     background-image: url(Kartinki/pngegg\(1\).png);
@@ -359,7 +404,7 @@ h1{
     width: 60px;
     background-size: 60px 60px;
     position: relative;
-    left: 740px;
+    left: 52%;
     bottom: 400px;
 }
 .vk{
@@ -368,7 +413,7 @@ h1{
     width: 60px;
     background-size: 60px 60px;
     position: relative;
-    left: 740px;
+    left: 52%;
     bottom: 350px;
 }
 .telephone{
@@ -377,7 +422,7 @@ h1{
     width: 60px;
     background-size: 60px 60px;
     position: relative;
-    left: 740px;
+    left: 52%;
     bottom: 300px;
 }
 .email{
@@ -386,12 +431,12 @@ h1{
     width: 100px;
     background-size: 100px 60px;
     position: relative;
-    left: 720px;
+    left: 51%;
     bottom: 270px;
 }
 .info1{
     position: relative;
-    left: 820px;
+    left: 58%;
     bottom: 440px;
     transition-duration: 0.5s;
     text-decoration: none;
@@ -399,7 +444,7 @@ h1{
 }
 .info2{
     position: relative;
-    left: 820px;
+    left: 58%;
     bottom: 390px;
     transition-duration: 0.5s;
     text-decoration: none;
@@ -407,7 +452,7 @@ h1{
 }
 .info3{
     position: relative;
-    left: 820px;
+    left: 58%;
     bottom: 340px;
     transition-duration: 0.5s;
     text-decoration: none;
@@ -415,7 +460,7 @@ h1{
 }
 .info4{
     position: relative;
-    left: 820px;
+    left: 58%;
     bottom: 310px;
     transition-duration: 0.5s;
     text-decoration: none;
