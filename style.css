@@ -2,11 +2,17 @@ body {
     margin: 50px;
     font-family: sans-serif;
     background-color: #141111;
+    overflow-x: hidden;
 }
 header{
+    margin: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: #14111186;
+    z-index: 1000;
 }
 .logo img {
     height: 100px;
@@ -15,16 +21,16 @@ header{
     text-decoration: none;
     color: white;   
     box-shadow: 0 0 0 1px white;
-    border-radius: 10px;
+    border-radius: 10px;    
     padding: 11px 12px 8px;
     transition-duration: 0.5s;
 }
 .links {
     display: flex;
-    gap: 100px;
+    margin: 10px;
     font-size: 30px;
-    position: absolute;
-    left: 22%;
+    justify-content: space-between;
+    align-items: center;
 }
 .btn{
     background-color: #fbbb43;
@@ -32,12 +38,15 @@ header{
     transition-duration: 0.5s;
 }
 .btn img {
+    display: flex;
     height: 70px;
-    padding: 11px 12px 8px;
+    padding: 11px 20px 8px;
 }
 .banner {
+    margin: 0;
     background-image: url(Kartinki/calisto-trailer_large.jpg);
     padding: 70px;
+    margin-top: 20px;
     border-radius: 10px;
     background-position: center;
     background-size: cover;
@@ -67,6 +76,10 @@ header{
     color: #000;
     box-shadow: 0 0 0 0;
 }
+.shop_list{
+    margin: 0;
+    width: 100%;
+}
 .card {
     width: 20%;
     height: 300px;
@@ -83,12 +96,15 @@ header{
 }
 img{
     max-width: 100%;
-    height: 250px;
+    height: 58%;
     border-radius: 5px;
 }
 .igra{
     color: white;
     padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 .container {
     display: flex;
@@ -96,7 +112,7 @@ img{
     margin-top: 50px;
 }
 .card:hover {
-    border: 3px solid #fbbb43;
+    border: 1px solid #fbbb43;
 }
 h1{
     display: flex;
@@ -104,4 +120,352 @@ h1{
     align-items: center;
     color: white;
     font-size: 80px;
+}
+.wrapper{
+    width: 100%;
+    margin: 0;
+}
+.new_list{
+    margin: 0;
+    width: 100%;
+}
+.news {
+    height: 500px;
+    margin: 20px 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.block1 {
+    background-image: url(Kartinki/EGS_NeedforSpeedUnbound_CriterionGames_S2_1200x1600-9633e095cbd48726c6025f64d3114bb8.jpg);
+    background-position: center;
+    background-size: 100% 250px ;
+    display: flex;
+    width: 50%;
+    height: 250px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 1px solid silver;
+    transition-duration: 0.5s;
+    box-shadow:  inset 0 0 50px 40px rgba(0, 0, 0, 0.856);
+    text-decoration: none;
+}
+.block2 {
+    background-image: url(Kartinki/Sonic-Frontierrs-Site.jpg);
+    background-position: center;
+    background-size: 100% 180px ;
+    display: flex;
+    width: 50%;
+    height: 180px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 1px solid silver;
+    transition-duration: 0.5s;
+    box-shadow:  inset 0 0 50px 40px rgba(0, 0, 0, 0.856);
+    text-decoration: none;
+}
+.block3 {
+    background-image: url(Kartinki/KrubisFight.jpg);
+    background-position: center;
+    background-size: 100% 180px ;
+    display: flex;
+    width: 50%;
+    height: 180px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 1px solid silver;
+    transition-duration: 0.5s;
+    box-shadow:  inset 0 0 50px 40px rgba(0, 0, 0, 0.856);
+    text-decoration: none;
+}
+.block4 {
+    display: flex;
+    background-image: url(Kartinki/V9R0ldWdLSgS6A4d8qplbAgi.jpg);
+    background-position: center;
+    background-size: 100% 250px ;
+    width: 50%;
+    height: 250px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 1px solid silver;
+    transition-duration: 0.5s;
+    box-shadow:  inset 0 0 50px 40px rgba(0, 0, 0, 0.856);
+    text-decoration: none;
+}
+.block1 .price {
+    top: 200px;
+    left: 180px;
+}
+.block2 .price {
+    top: 135px;
+    left: 250px;
+}
+.block3 .price {
+    top: 130px;
+    left: 290px;
+}
+.block4 .price {
+    top: 200px;
+    left: 295px;
+}
+.block1:hover{
+    border: 1px solid #fbbb43;
+}
+.block2:hover{
+    border: 1px solid #fbbb43;
+}
+.block3:hover{
+    border: 1px solid #fbbb43;
+}
+.block4:hover{
+    border: 1px solid #fbbb43;
+}
+.Blog_list{
+    margin: 0;
+    width: 100%;
+
+}
+.blogs{
+    height: 350px;
+    margin: 20px 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.blog1 {
+    background-image: url(Kartinki/game-ratings-featured.jpg);
+    background-position: center;
+    background-size: 335px 230px ;
+    background-repeat: no-repeat;
+    display: flex;
+    width: 33%;
+    height: 230px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 1px solid silver;
+    transition-duration: 0.5s;
+    box-shadow:  inset 0 0 50px 40px rgba(0, 0, 0, 0.856);
+    text-decoration: none;
+}
+.blog2 {
+    background-image: url(Kartinki/DyingLight2_HERO.jpg);
+    background-position: center;
+    background-size: 335px 230px ;
+    display: flex;
+    width: 33%;
+    height: 230px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 1px solid silver;
+    transition-duration: 0.5s;
+    box-shadow:  inset 0 0 50px 40px rgba(0, 0, 0, 0.856);
+    text-decoration: none;
+}
+.blog3 {
+    background-image: url(Kartinki/d2f1a80c52.jpg);
+    background-position: center;
+    background-size: 335px 230px ;
+    display: flex;
+    width: 33%;
+    height: 230px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 1px solid silver;
+    transition-duration: 0.5s;
+    box-shadow:  inset 0 0 50px 40px rgba(0, 0, 0, 0.856);
+    text-decoration: none;
+}
+.des{
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+    position: relative;
+}
+.text1{
+    color: white;
+    font-size: 15px;
+    padding-top: 10px;
+    position: relative;
+    left: 35px;
+    text-decoration: none;
+}
+.text2{
+    color: white;
+    font-size: 15px;
+    padding-top: 10px;
+    position: relative;
+    left: 35px;
+    text-decoration: none;
+}
+.text3{
+    color: white;
+    font-size: 15px;
+    padding-top: 10px;
+    position: relative;
+    left: 55px;
+    text-decoration: none;
+}
+
+.blog1:hover{
+    border: 1px solid #fbbb43;
+}
+.blog2:hover{
+    border: 1px solid #fbbb43;
+}
+.blog3:hover{
+    border: 1px solid #fbbb43;
+}
+.Kontakts{
+    margin: 0;
+    width: 100%;
+}
+.webs{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.photo{
+    position: relative;
+    background-image: url(Kartinki/me.jpg);
+    background-position: center;
+    background-size: 500px 500px ;
+    height: 500px;
+    width: 500px;
+    border-radius: 10px;
+    border: 1px solid silver;   
+    top: 60px;
+    left: 200px;
+}
+.telegram{
+    background-image: url(Kartinki/pngegg\(1\).png);
+    height: 60px;
+    width: 60px;
+    background-size: 60px 60px;
+    position: relative;
+    left: 740px;
+    bottom: 400px;
+}
+.vk{
+    background-image: url(Kartinki/pngegg\(2\).png);
+    height: 60px;
+    width: 60px;
+    background-size: 60px 60px;
+    position: relative;
+    left: 740px;
+    bottom: 350px;
+}
+.telephone{
+    background-image: url(Kartinki/pngegg\(5\).png);
+    height: 60px;
+    width: 60px;
+    background-size: 60px 60px;
+    position: relative;
+    left: 740px;
+    bottom: 300px;
+}
+.email{
+    background-image: url(Kartinki/pngegg\(6\).png);
+    height: 60px;
+    width: 100px;
+    background-size: 100px 60px;
+    position: relative;
+    left: 720px;
+    bottom: 270px;
+}
+.info1{
+    position: relative;
+    left: 820px;
+    bottom: 440px;
+    transition-duration: 0.5s;
+    text-decoration: none;
+    color: white;
+}
+.info2{
+    position: relative;
+    left: 820px;
+    bottom: 390px;
+    transition-duration: 0.5s;
+    text-decoration: none;
+    color: white;
+}
+.info3{
+    position: relative;
+    left: 820px;
+    bottom: 340px;
+    transition-duration: 0.5s;
+    text-decoration: none;
+    color: white;
+}
+.info4{
+    position: relative;
+    left: 820px;
+    bottom: 310px;
+    transition-duration: 0.5s;
+    text-decoration: none;
+    color: white;
+}
+.info1:hover{
+    color: #fbbb43;
+}
+.info2:hover{
+    color: #fbbb43;
+}
+hr{
+    background-color: #fbbb43;
+    height: 2px;
+    border: 0;
+
+    bottom: 100px;
+}
+footer{
+    width: 100%;
+    height: 100px;    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.visa{
+    background-image: url(Kartinki/pngegg\(8\).png);
+    height: 100px;
+    width: 100px;
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+}
+.mastercard{
+    background-image: url(Kartinki/pngegg\(9\).png);
+    height: 80px;
+    width: 150px;
+    background-size: 150px 80px;
+    background-repeat: no-repeat;
+}
+.mir{
+    background-image: url(Kartinki/Logotip-MIR-na-plashke-01.png);
+    height: 80px;
+    width: 150px;
+    background-size: 150px 80px;
+    background-repeat: no-repeat;
+}
+.qiwi{
+    background-image: url(Kartinki/pngegg\(10\).png);
+    height: 100px;
+    width: 100px;
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
 }
