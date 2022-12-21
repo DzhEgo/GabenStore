@@ -42,10 +42,15 @@ header{
     height: 70px;
     padding: 11px 20px 8px;
 }
+.promo{
+    margin: 0;
+    display: flex;
+}
 .banner {
     margin: 0;
     background-image: url(Kartinki/calisto-trailer_large.jpg);
     padding: 70px;
+    width: 100%;
     margin-top: 20px;
     border-radius: 10px;
     background-position: center;
@@ -53,8 +58,7 @@ header{
     height: 700px;
     color: white;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    align-items: flex-end;
 }
 .banner .btn {
     font-size: 40px;
@@ -373,11 +377,22 @@ h1{
 .Kontakts{
     margin: 0;
     width: 100%;
+}
+.webs{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+.gg{
+    display: flex; 
     flex-direction: column;
+    justify-content: center;
+    align-items: center;  
 }
 .photo{
-    position: relative;
+    display: flex;
+    justify-content: center;
     background-image: url(Kartinki/me.jpg);
     background-position: center;
     background-size: 100% 500px ;
@@ -385,76 +400,64 @@ h1{
     width: 35%;
     border-radius: 10px;
     border: 1px solid silver;   
-    top: 60px;
-    left: 12%;
 }
 .telegram{
     background-image: url(Kartinki/pngegg\(1\).png);
     height: 60px;
     width: 60px;
     background-size: 60px 60px;
-    position: relative;
-    left: 52%;
-    bottom: 400px;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
 }
 .vk{
     background-image: url(Kartinki/pngegg\(2\).png);
     height: 60px;
     width: 60px;
     background-size: 60px 60px;
-    position: relative;
-    left: 52%;
-    bottom: 350px;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .telephone{
     background-image: url(Kartinki/pngegg\(5\).png);
     height: 60px;
     width: 60px;
     background-size: 60px 60px;
-    position: relative;
-    left: 52%;
-    bottom: 300px;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .email{
     background-image: url(Kartinki/pngegg\(6\).png);
     height: 60px;
     width: 100px;
     background-size: 100px 60px;
-    position: relative;
-    left: 51%;
-    bottom: 270px;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .info1{
-    position: relative;
-    left: 58%;
-    bottom: 440px;
     transition-duration: 0.5s;
     text-decoration: none;
     color: white;
+
 }
 .info2{
-    position: relative;
-    left: 58%;
-    bottom: 390px;
     transition-duration: 0.5s;
     text-decoration: none;
     color: white;
+    margin-left: 20px;
 }
 .info3{
-    position: relative;
-    left: 58%;
-    bottom: 340px;
     transition-duration: 0.5s;
     text-decoration: none;
     color: white;
 }
 .info4{
-    position: relative;
-    left: 58%;
-    bottom: 310px;
     transition-duration: 0.5s;
     text-decoration: none;
     color: white;
+    margin-left: 20px;
 }
 .info1:hover{
     color: #fbbb43;
@@ -509,14 +512,18 @@ footer{
         flex-direction: column;
         position: relative;
     }
+    .promo{
+        align-items: flex-end;
+        justify-content: center;
+    }
     .banner {
         height: 100%;
-        width: 60%;
-        justify-content: center;
+        width: 55%;
+        justify-content: flex-end;
         align-items: center;
     }
     .banner .btn{
-        font-size: 15px;
+        font-size: 10px;
     }
     .price{
         font-size: 15px;
@@ -598,11 +605,37 @@ footer{
         padding: 30px;
     }
     .text3{
-        font-size: 125x;
+        font-size: 15px;
         padding: 30px;
     }
-    .Kontakts{
-        
+    .photo{
+        height: 300px;
+        width: 300px;
+        left: 25px;
+    }
+    .webs{
+        flex-direction: column;
+    }
+    .telegram{
+        margin-top: 10px;
+        height: 30px;
+        width: 30px;
+        background-size: 30px 30px;
+    }
+    .telephone{
+        height: 30px;
+        width: 30px;
+        background-size: 30px 30px;
+    }
+    .email{
+        height: 30px;
+        width: 50px;
+        background-size: 50px 30px;
+    }
+    .vk{
+        height: 30px;
+        width: 30px;
+        background-size: 30px 30px;
     }
     .visa{
         width: 50px;
