@@ -1,8 +1,9 @@
 body {
     margin: 50px;
-    font-family: sans-serif;
     background-color: #141111;
     overflow-x: hidden;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Ubuntu', sans-serif;
 }
 header{
     margin: 0;
@@ -656,5 +657,38 @@ footer{
         width: 80px;
         height: 50px;
         background-size: 80px 50px;
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1450px){
+    .blogs{
+        margin: 0;
+        flex-direction: column;
+        height: 1200px;
+    }
+    .blog1{
+        width: 50%;
+    }
+    .blog2{
+        width: 50%;
+        margin-left: 0;
+    }
+    .blog3{
+        width: 50%;
+        margin-left: 0;
+    }
+    .des{
+        font-size: 30px;
+    }
+    .text1{
+        font-size: 20px;
+        padding: 30px;
+    }
+    .text2{
+        font-size: 20px;
+        padding: 30px;
+    }
+    .text3{
+        font-size: 20px;
+        padding: 30px;
     }
 }
